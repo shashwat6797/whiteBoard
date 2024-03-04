@@ -1,0 +1,35 @@
+services:
+  postgres:
+      image: postgres
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+      environment:
+        POSTGRES_DB: keycl0ak
+        POSTGRES_USER: keycl0ak
+        POSTGRES_PASSWORD: password
+      ports:
+        - 5431:5431
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0.0
+    volumes:
+      [./imports:/opt/keycloak/data/import]
+    command: start-dev --import-realm
+    environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: postgres
+      DB_DATABASE: keycl0ak
+      DB_USER: keycl0ak
+      DB_PASSWORD: password
+      KEYCLOAK_USER: shash_0
+      KEYCLOAK_PASSWORD: test
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+
+volumes:
+    postgres_data:
+      driver: local
