@@ -18,35 +18,27 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">whiteBoard</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    [Screencast from 2024-03-05 00-24-32.webm](https://github.com/shashwat6797/whiteBoard/assets/91310943/92059ade-caa3-47ee-9445-b06c809aa361)
+
+
+
+![Screenshot from 2024-03-05 00-30-38](https://github.com/shashwat6797/whiteBoard/assets/91310943/3097e3ba-dde0-420f-9ba8-119d2b9b4bc3)
+![Screenshot from 2024-03-05 00-29-43](https://github.com/shashwat6797/whiteBoard/assets/91310943/6dcf8dd2-b789-4f7d-af3f-06c7216b49ff)
+![Screenshot from 2024-03-05 00-29-35](https://github.com/shashwat6797/whiteBoard/assets/91310943/2b5d516f-d4fd-4782-a0a2-48fe5a219d7b)
+![Screenshot from 2024-03-05 00-30-10](https://github.com/shashwat6797/whiteBoard/assets/91310943/1e6d93fd-515e-4738-b929-aba681948cd0)
+
   </p>
 </div>
 
@@ -58,9 +50,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -83,9 +72,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+this is a collaborative whiteBoard webapp it can be used with friends and teams to work on a board in real time simultaneously 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
